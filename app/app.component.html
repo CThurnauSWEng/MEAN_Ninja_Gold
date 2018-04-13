@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Total Gold {{ gold }}
+  </h1>
+  <div class="location">
+    <h2 >Farm</h2>
+    <h3 >Earns 2-5 gold</h3>
+    <button (click)="farm()" >Farm!</button>
+  </div>
+  <div class="activity">
+    <p *ngFor="let activity of activityArr">
+      {{ activity }}
+    </p>
+  </div>
+</div>
+

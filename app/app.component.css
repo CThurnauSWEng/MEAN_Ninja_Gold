@@ -1,0 +1,6 @@
+.location {
+    width: 150px;
+    height: 200px;
+    border: solid 2px black;
+    text-align: center;
+}
